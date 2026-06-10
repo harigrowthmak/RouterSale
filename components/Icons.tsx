@@ -1,4 +1,4 @@
-import { JSX, SVGProps } from 'react';
+import { SVGProps } from 'react';
 
 type P = SVGProps<SVGSVGElement>;
 const base = (p: P) => ({

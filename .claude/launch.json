@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "routersale",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": [
+        "-lc",
+        "export PATH=\"$HOME/.nvm/versions/node/v22.13.1/bin:$PATH\" && exec npm run dev"
+      ],
+      "port": 3300
+    }
+  ]
+}
